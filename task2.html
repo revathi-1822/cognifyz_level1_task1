@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" />
+    <title>task2</title>
+    <style>
+        body {
+            background-image: url("https://media.istockphoto.com/id/1403976180/vector/abstract-color-vector-banner-blurred-violet-gradient.webp?s=170667a&w=0&k=20&c=0rBkni1c6p8AynP5keVPdijlIKcirNgjmauSGqg-4KQ=");
+        }
+
+        .container {
+            border: 2px solid rgb(138, 124, 124);
+            position: absolute;
+            top: 35%;
+            left: 35%;
+            margin: 10px;
+            padding: 40px;
+            box-shadow: 5px 10px 8px rgb(78, 78, 163);
+        }
+
+        input {
+            border: 0px;
+            padding: 5px 0;
+            border-bottom: 1px solid rgb(65, 65, 146);
+        }
+
+        .btn-1 {
+            display: inline-block;
+            text-align: center;
+            background: rgb(85, 31, 85);
+            color: #eee;
+            font-weight: bold;
+            padding: 1.18em 1.32em 1.03em;
+            line-height: 0.5;
+            border-radius: 1em;
+            position: relative;
+            text-decoration: none;
+            font-family: var(--font);
+            font-size: 1.15rem;
+        }
+
+        button::before,
+        button::after {
+            position: relative;
+            content: "";
+            z-index: -1;
+        }
+
+        .btn-1:hover {
+            box-shadow: 10px 10px 0px rgb(19, 124, 159);
+            top: 5px;
+            left: -5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <label>Enter Input:</label>
+        <input type="text" placeholder="Enter any input" /><br></br>
+        <button class="btn-1">Click Me</button><br></br>
+    </div>
+</body>
+
+</html>
